@@ -5,33 +5,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Login</title>
+<title>Register</title>
 </head>
 <body>
 	
-<form class=container method="post" action="login.php">
-<?php include('errors.php'); ?>
+<form class=container action="register.php" method="post">
+
+    <h2>Register</h2>	
 	
-    <h2>Login</h2>
+	<div class="form-group">
+    <label for="firstname"><b>First name</b></label>
+    <input type="text" class="form-control" placeholder="Enter Firstname" name="firstname">
+</div>
+	
+	<div class="form-group">
+    <label for="lastname"><b>Last name</b></label>
+    <input type="text" class="form-control" placeholder="Enter Lastname" name="lastname">
+</div>
 	
   <div class="form-group">
 	  <label for="email"><b>Email</b></label>
     <input type="text" class="form-control" placeholder="Enter email" name="email">
 	  </div>
-	
 	<div class="form-group">
     <label for="password"><b>Password</b></label>
     <input type="password" class="form-control" placeholder="Enter Password" name="password">
 </div>
-	
 	<div>
-    <button type="submit" class="btn btn-primary" name="login_user">Login</button>
+    <button type="submit" class="btn btn-primary" name="reg_user">Register</button>
   </div>
-
-  <div>
-    <p>Don't have an account? <a href="register.php">Register with us</a></p>
-  </div>
-</form>
 
 	<?php require('footer.php')?>
 </body>

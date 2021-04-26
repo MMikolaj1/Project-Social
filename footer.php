@@ -22,10 +22,10 @@
         <h5 class="text-uppercase">Account</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="">Login</a>
+            <a href="login.php">Login</a>
           </li>
           <li>
-            <a href="">Register</a>
+            <a href="register.php">Register</a>
           </li>
         </ul>
       </div>
@@ -34,10 +34,10 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="">About us</a>
+            <a href="aboutus.php">About us</a>
           </li>
           <li>
-            <a href="">Contact us</a>
+            <a href="contactus.php">Contact us</a>
           </li>
         </ul>
       </div>
@@ -45,6 +45,6 @@
   </div>
   </div>
     <div class="footer-copyright text-center py-3">Copyright &copy;
-      2021 Activity Tracking
+      2021 Project Social
     </div>
 </footer>

@@ -1,6 +1,9 @@
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	<div class="navbar-header">
-	<a class="navbar-brand" href="/"><img src="" class="img-responsive logo">
+	<a class="navbar-brand" href="index.php"><img src="images/logo.png" class="img-responsive logo">
 	 </a>
 	</div>
 		  
@@ -8,25 +11,25 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  </form>
+	
+  <div class="collapQAse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home<span class="sr-only"></a>
+        <a class="nav-link" href="index.php">Home<span class="sr-only"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/goals">test</a>
+        <a class="nav-link" href="groups.php">Group</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/achievements">test2</a>
-      </li>
-		 <li class="nav-item">
-        <a class="nav-link" href="/about">About us</a>
+        <a class="nav-link" href="news.php">News</a>
       </li>
     </ul>
 	  
 	  <ul class="nav navbar-nav navbar-right">
-	<li class="nav-item">
-        <a class="nav-link" href="">Login</a>
+	<li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
       </li>
 	  </ul>
   </div>

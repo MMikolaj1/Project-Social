@@ -1,0 +1,227 @@
+.navbar-brand{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	height: 60px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+.logo2{
+	height: 60px;
+}
+
+.center {
+  text-align:center;
+}
+
+.navbar-inverse{
+	height: 65px;
+	padding-top: 5px;
+}
+
+.heading-spacer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.footer{
+	padding-top: 15px;
+	background: #000000;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	position: bottom;
+}
+
+.footer2{
+	background: #2F2F2F;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	position: bottom;
+}
+
+.table-style{
+	padding-bottom: 10px;
+}
+/* login and register css */
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #004BFF;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+.loginbtn {
+  background-color: #004BFF;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+}
+
+/* Cart CSS */
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+
+.paybtn{
+	padding-bottom: 20px;
+}
+
+.contactbtn{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.thank_you{
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* Product CSS */
+.gold{
+	color: #FFBF00;
+}
+
+.product{
+	border: 1px solid #dddddd;
+	height: 321px;
+}
+
+.product>img{
+	max-width: 230px;
+}
+
+.product-rating{
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.product-title{
+	font-size: 20px;
+}
+
+.product-desc{
+	font-size: 14px;
+}
+
+.product-price{
+	font-size: 22px;
+}
+
+.product-info{
+		margin-top: 50px;
+}
+
+/* About us CSS */
+.spacing{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
